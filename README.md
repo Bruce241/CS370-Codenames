@@ -1,6 +1,6 @@
 # Codenames AI Project
-This project was created for CS370 - Intro to Artificial Intelligence.
-I used a word2vec model that was trained using part of Google News dataset (about 100 billion words). The model contains 300-dimensional vectors for 3 million words and phrases.
+This project was created for CS370 - Intro to Artificial Intelligence. \n
+I used a word2vec model that was trained using part of Google News dataset (about 100 billion words). The model contains 300-dimensional vectors for 3 million words and phrases.\n
 
 For the spymaster AI, I used a forward search algorithm:
   - First, I find the top two clues the AI could give out of all of the different combinations of size 1-3. These clues avoid the "assassin" words by making sure the clues are not similar to any of the "assassin" words.
